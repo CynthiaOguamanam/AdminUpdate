@@ -154,6 +154,12 @@ const UpdateWallet = ({Display}) => {
             <button onClick={(e)=>upddatebtn(props._id,e)} title={"currentBalance"}>Update</button>
             <span>${props.currentBalance}</span>
           </InputData>
+          <InputData>
+            <label>Total Referral: </label>
+            {/* <input/> */}
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"totalReferral"}>Update</button>
+            <span>${props.totalReferral}</span>
+          </InputData>
 
           {/* <InputData>
             <label>Start up deposit: </label>
