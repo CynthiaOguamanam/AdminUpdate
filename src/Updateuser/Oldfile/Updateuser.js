@@ -55,7 +55,7 @@ const UpdateWallet = ({Display}) => {
           console.log(myObject)
           
           
-         const lastDepositupdate = `https://preeminent-crypfield.onrender.com/api/${UpdateValues}/${id}`
+         const lastDepositupdate = `https://premium-crypt.onrender.com/api/${UpdateValues}/${id}`
          Axios.patch(lastDepositupdate, myObject)
           .then(res => console.log(res))
            console.log("this is the id", id) 
